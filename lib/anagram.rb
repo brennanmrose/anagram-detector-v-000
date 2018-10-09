@@ -1,5 +1,3 @@
-require 'pry'
-
 class Anagram 
   attr_accessor :word 
   
@@ -14,11 +12,4 @@ class Anagram
       end
   	  value
   end
-  
-  # def match(array)
-  #   value = nil
-  #   value = x if array.each { |x| x.split("").sort.join } == word.each { |w| w.split("").sort.join }
-  #   binding.pry
-  # end
-  
 end 
